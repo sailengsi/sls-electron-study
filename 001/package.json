@@ -1,0 +1,12 @@
+{
+  "name": "001",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "sailengsi",
+  "license": "MIT",
+  "scripts": {
+      "start": "../node_modules/.bin/electron .",
+      "build": "../node_modules/.bin/electron-packager ./ sls-electron-001 --platform=all --arch=all --out=../dist/001/",
+      "build:mac": "../node_modules/.bin/electron-packager ./ sls-electron-001-mac --platform=mas --arch=x64 --out=../dist/001/"
+  }
+}

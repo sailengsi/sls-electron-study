@@ -1,0 +1,12 @@
+{
+  "name": "sls-electron-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitee.com:sls-node/sls-electron-study.git",
+  "author": "赛冷思 <silence@sailengsi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron-packager": "^9.1.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
